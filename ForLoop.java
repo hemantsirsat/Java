@@ -31,7 +31,7 @@ public class ForLoop{
             i++;
         }
         System.out.println("|Even|: "+even+"\n|Odd|: "+odd);
-        //reverse loop
+        //reverse loops
         do{
             System.out.print(num+"\t");
             num--;
