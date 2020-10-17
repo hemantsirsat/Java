@@ -12,9 +12,9 @@ class Banking
         System.out.print("Enter ID: ");
         int Id = sc.nextInt();
         
-        Bank b = new Bank(name,Id);
-        b.menu();
-        
+        Bank b = new Bank(name,Id);         //object b of class Bank
+        b.menu();                           //Call methond menu of class Bank
+            
     }
 }
 
@@ -23,7 +23,7 @@ class Bank
     int Balance;
     int PreviousDeposit;
     
-    Bank(String name,int Id)
+    Bank(String name,int Id)                 //Constructor with 2 parameters
     {
         System.out.println("\nWelcome, " + name + "\nID: "+Id);
     }
